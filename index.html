@@ -16,15 +16,16 @@
 <body>
   <header id="#home">
     <section class="logo-contact-section">
-      <div class=" width-90 margin-x-auto flex item-center j-between padding-y-10">
-        <div class="logo-name flex item-center">
+      <div class="width-90 margin-x-auto flex item-center j-between padding-y-10 flex-all-center">
+
+        <div class="logo-name flex item-center flex-all-center">
           <img
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdB87NsqhvPtb43j3l9lz58VaX2yDHnS8xiU0f_5Jf_wxrBB64YO5a7a4&usqp=CAE&s"
             height="100" width="100" alt="Logo">
           <h2>GSS GARKI</h2>
         </div>
 
-        <div class="contact-email flex item-center">
+        <div class="contact-email flex item-center none">
           <article class="flex item-center padding-x-10">
             <i class="fa-solid fa-envelope-open-text padding-x-10 font-9 text-dark-purple"></i>
             <span>
@@ -40,14 +41,18 @@
               <p>09029520358, 07038460065</p>
             </span>
           </article>
-
         </div>
+
       </div>
     </section>
 
     <section class="nav-section">
-      <nav class="flex item-center j-center height-8 overflow-hidden bg-dark-purple">
-        <div>
+      <nav class="flex item-center j-center height-8 media-auto-h overflow-hidden bg-dark-purple flex-all-between">
+        <div class=" hidden media-block cursor-pointer ">
+          <i class="fa-solid fa-bars text-white font-4 padding-20"></i>
+        </div>
+
+        <div class="none">
           <a href="#home" class="padding-20 margin-0 text-white no-decoration no-border hover">Home</a>
           <a href="#about-us" class="padding-20 margin-0 text-white no-decoration no-border hover">About Us+</a>
           <a href="#" class="padding-20 margin-0 text-white no-decoration no-border hover">Administarative Block</a>
@@ -99,7 +104,7 @@
 
       <section class="information-section">
         <div class="width-100 bg-dark-purple">
-          <div class="height-20 flex j-between item-center width-80 margin-x-auto">
+          <div class="height-20 none  flex j-between item-center width-80 margin-x-auto">
             <button class="width-30 height-8 border border-radius-10 bg-dark-purple text-white font-1">General
               Information
               >></button>
@@ -111,14 +116,16 @@
       </section>
 
       <section id="about-us" class="about-us-section">
-        <div class="flex margin-x-auto width-90">
+        <div class="flex margin-x-auto width-90 flex-all-center">
+
           <div class="about-us-image width-100 margin-y-20">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6Iilr1yPi_6H0dRXWKW7TmRgoZ8AtQiEBwg&s"
               class="height-50 width-100" alt="about-us-image">
           </div>
-          <div class="about-us-text height-50 width-100 margin-y-20 padding-x-10">
+
+          <div class="about-us-text height-50 media-auto-h width-100 margin-y-20 padding-x-10">
             <div class="padding-x-20">
-              <h2>About us</h2>
+              <h2 class="flex-all-center">About us</h2>
 
               <p class="text-justify padding-y-10">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit earum
                 nulla animi,
@@ -135,20 +142,19 @@
                 distinctio nemo quaerat, adipisci labore, itaque veritatis numquam obcaecati culpa.
               </p>
 
-              <div><button type="button" class="button margin-y-10 height-5 width-30">Learn more</button></div>
+              <div class="flex-all-center"><button type="button" class="button margin-y-10 height-5 width-30">Learn more</button></div>
             </div>
           </div>
 
         </div>
       </section>
 
-      <section id="check-result" class="check-result-section special-pad">
+      <section id="check-result" class="check-result-section special-pad media-auto-h">
         <div class="check-result-section-content width-100 bg-white-smoke">
 
+          <div class="width-90 flex flex-all-center margin-x-auto padding-20">
 
-          <div class="width-90 flex margin-x-auto padding-20">
-
-            <div class="height-70 width-100 flex flex-col padding-20 bg-white">
+            <div class="height-70 media-auto-h width-100 flex flex-col padding-20 bg-white">
               <div class="flex j-center item-center">
                 <img
                   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdB87NsqhvPtb43j3l9lz58VaX2yDHnS8xiU0f_5Jf_wxrBB64YO5a7a4&usqp=CAE&s"
@@ -170,7 +176,7 @@
             </div>
 
 
-            <div class="height-70 width-100 bg-dark-purple text-white ">
+            <div class="height-70 media-auto-h width-100 bg-dark-purple text-white ">
               <div class="padding-20">
                 <h3 class="text-center padding-y-10">CHECK RESULT</h3>
               </div>
@@ -221,20 +227,23 @@
       </section>
 
       <section id="news" class="news-section special-pad">
-        <div class="Title font-2  width-90 margin-x-auto"><p class="margin-x-10">Latest News</p></div>
-        <div class="news-container flex j-between width-90 margin-x-auto">
+        <div class="Title font-2 flex-all-center  width-90 margin-x-auto"><p class="margin-x-10">Latest News</p></div>
+        <div class="news-container flex j-between flex-all-center width-90 margin-x-auto">
+          
           <div class="margin-x-10">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI-gexu3G88lU2QZxqNm_Rzox99vrC_GdmbQ&s" class="height-40 width-100 padding-y-10" alt="">
            <div>
             <a class="width-50" href="#">Our Cultural day is comming up next month been March 2025</a>
            </div>
           </div>
+
           <div class="margin-x-10">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCbE4XYfDktNBJ9RCabkpT7L_-XXSf8V7VVQ&s" class="height-40 width-100 padding-y-10" alt="">
            <div>
             <a class="width-50" href="#"> Our school is hosting  FCT Football competition for all secondary school this year</a>
            </div>
           </div>
+
           <div class="margin-x-10">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTueFXYefELRlfm1yANLLhMv6PB2PNxYexHfA&s" class="height-40 width-100 padding-y-10" alt="">
            <div>
@@ -246,7 +255,7 @@
         </div>
       </section>
 
-      <section class="app-section">
+      <section class="app-section none">
         <div class="app-container width-100 height-30 bg-white-smoke padding-y-20">
           <div class="text-center"><h3>Download Our School App Below</h3></div>
           <div class="flex width-60 margin-x-auto j-center item-center height-20">
@@ -264,7 +273,7 @@
   <footer>
     <section class="footer-section">
       <div class="flex flex-col fixed bottom-0 left-0 height-15 width-100 bg-black item-center j-center">
-        <p class="text-white">Government Secondary School Garki Area 10, Abuja.</p>
+        <p class="text-white none">Government Secondary School Garki Area 10, Abuja.</p>
         <small class="text-white">&copy; 2025 Developed by Emmanuel Onu </small>
         <small class="text-white">All Right Revered</small>
       </div>

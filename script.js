@@ -67,8 +67,7 @@ document.addEventListener("DOMContentLoaded", function () {
     gap: "10px",
     autoplay: true,
     breakpoints: {
-      768: { perPage: 2 },
-      480: { perPage: 1 },
+      992: { perPage: 1 },
     },
   }).mount();
 });
