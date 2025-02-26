@@ -75,6 +75,15 @@
     color: white;
     background: orangered;
   }
+  .button1 {
+    padding: 5px 15px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    background: #999;
+  }
 
   .hover:hover {
     color: #ffffff;
@@ -131,6 +140,9 @@
   }
   .bg-white-smoke {
     background: whitesmoke;
+  }
+  .bg-light-gray {
+    background: lavender;
   }
 
   .bg-dark-purple {
