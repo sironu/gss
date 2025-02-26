@@ -606,6 +606,9 @@
   .flex-media {
     display: flex;
   }
+  .media-flex-col {
+    flex-direction: column;
+  }
   .flex-media-between {
     justify-content: space-between;
   }
@@ -632,6 +635,16 @@
      }
      .mobile-text-center{
       text-align: center;
+     }
+     .media-h-0 {
+      height: 0;
+
+     }
+
+     .media-h-transiton {
+      transition: height;
+      transition-duration: 500ms;
+      transition-timing-function: linear;
      }
 
     .check-result-section-content {
